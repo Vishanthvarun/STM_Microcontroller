@@ -1,0 +1,161 @@
+ASxxxx Linker V03.00/V05.40 + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000000  l_CABS                          
+     00000000  l_CONST                         
+     00000000  l_DABS                          
+     00000000  l_DATA                          
+     00000000  l_INITIALIZED                   
+     00000000  l_INITIALIZER                   
+     00000000  l__CODE                         
+     00000000  s_CABS                          
+     00000000  s_DABS                          
+     00000000  s__CODE                         
+     00000001  l_SSEG                          
+     00000001  s_DATA                          
+     00000001  s_INITIALIZED                   
+     00000001  s_SSEG                          
+     00000003  l_GSFINAL                       
+     00000007  l_HOME                          
+     00000023  l_GSINIT                        
+     00000036  l_CODE                          
+     00008000  s_HOME                          
+     00008007  s_GSINIT                        
+     0000802A  s_GSFINAL                       
+     0000802D  s_CODE                          
+     0000802D  s_CONST                         
+     0000802D  s_INITIALIZER                   
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000001    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00008000    00000007 =           7. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008000  A$led_blink$46                     led_blink
+     00008004  A$led_blink$84                     led_blink
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              00008007    00000023 =          35. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008007  A$led_blink$54                     led_blink
+     0000800A  A$led_blink$55                     led_blink
+     0000800B  A$led_blink$56                     led_blink
+     0000800D  A$led_blink$57                     led_blink
+     00008010  A$led_blink$60                     led_blink
+     00008013  A$led_blink$61                     led_blink
+     00008015  A$led_blink$63                     led_blink
+     00008019  A$led_blink$64                     led_blink
+     0000801A  A$led_blink$65                     led_blink
+     0000801C  A$led_blink$67                     led_blink
+     0000801F  A$led_blink$68                     led_blink
+     00008021  A$led_blink$70                     led_blink
+     00008024  A$led_blink$71                     led_blink
+     00008027  A$led_blink$72                     led_blink
+     00008028  A$led_blink$73                     led_blink
+ASxxxx Linker V03.00/V05.40 + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             0000802A    00000003 =           3. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000802A  A$led_blink$77                     led_blink
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                0000802D    00000036 =          54. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000802D  A$led_blink$99                     led_blink
+     0000802D  C$led_blink.c$2$0_0$3              led_blink
+     0000802D  C$led_blink.c$9$1_0$3              led_blink
+     0000802D  G$main$0$0                         led_blink
+     0000802D  _main                              led_blink
+     00008031  A$led_blink$100                    led_blink
+     00008035  A$led_blink$106                    led_blink
+     00008035  C$led_blink.c$10$1_0$3             led_blink
+     00008035  C$led_blink.c$12$2_0$4             led_blink
+     00008039  A$led_blink$107                    led_blink
+     0000803D  A$led_blink$110                    led_blink
+     0000803D  C$led_blink.c$13$2_0$4             led_blink
+     00008040  A$led_blink$113                    led_blink
+     00008040  C$led_blink.c$14$2_0$4             led_blink
+     00008043  A$led_blink$114                    led_blink
+     00008045  A$led_blink$115                    led_blink
+     00008046  A$led_blink$118                    led_blink
+     00008046  C$led_blink.c$15$2_0$4             led_blink
+     00008049  A$led_blink$119                    led_blink
+     0000804B  A$led_blink$124                    led_blink
+     0000804B  C$led_blink.c$19$1_0$3             led_blink
+     0000804B  XG$main$0$0                        led_blink
+     0000804C  A$led_blink$134                    led_blink
+     0000804C  C$led_blink.c$20$1_0$7             led_blink
+     0000804C  C$led_blink.c$23$2_0$7             led_blink
+     0000804C  G$delay$0$0                        led_blink
+     0000804C  _delay                             led_blink
+     00008050  A$led_blink$135                    led_blink
+     00008051  A$led_blink$136                    led_blink
+     00008052  A$led_blink$138                    led_blink
+     00008056  A$led_blink$139                    led_blink
+     00008058  A$led_blink$140                    led_blink
+     00008059  A$led_blink$142                    led_blink
+     0000805B  A$led_blink$143                    led_blink
+     0000805D  A$led_blink$144                    led_blink
+     0000805E  A$led_blink$145                    led_blink
+     00008060  A$led_blink$150                    led_blink
+     00008060  C$led_blink.c$28$2_0$7             led_blink
+     00008060  XG$delay$0$0                       led_blink
+     00008061  ___sdcc_external_startup           _startup
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 7.
+
+Files Linked                              [ module(s) ]
+
+led_blink.rel                             [ led_blink ]
+
+
+Libraries Linked                          [ object file ]
+
+/usr/local/bin/../share/sdcc/lib/stm8/stm8.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 8.
+
+User Base Address Definitions
+
+HOME = 0x8000
+DATA = 0x0001
+
+

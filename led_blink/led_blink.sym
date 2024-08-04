@@ -1,0 +1,101 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8)  Page 1
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000001 L
+  A A$led_blink$100                                                000004 GR
+  A A$led_blink$106                                                000008 GR
+  A A$led_blink$107                                                00000C GR
+  A A$led_blink$110                                                000010 GR
+  A A$led_blink$113                                                000013 GR
+  A A$led_blink$114                                                000016 GR
+  A A$led_blink$115                                                000018 GR
+  A A$led_blink$118                                                000019 GR
+  A A$led_blink$119                                                00001C GR
+  A A$led_blink$124                                                00001E GR
+  A A$led_blink$134                                                00001F GR
+  A A$led_blink$135                                                000023 GR
+  A A$led_blink$136                                                000024 GR
+  A A$led_blink$138                                                000025 GR
+  A A$led_blink$139                                                000029 GR
+  A A$led_blink$140                                                00002B GR
+  A A$led_blink$142                                                00002C GR
+  A A$led_blink$143                                                00002E GR
+  A A$led_blink$144                                                000030 GR
+  A A$led_blink$145                                                000031 GR
+  A A$led_blink$150                                                000033 GR
+  5 A$led_blink$46                                                 000000 GR
+  6 A$led_blink$54                                                 000000 GR
+  6 A$led_blink$55                                                 000003 GR
+  6 A$led_blink$56                                                 000004 GR
+  6 A$led_blink$57                                                 000006 GR
+  6 A$led_blink$60                                                 000009 GR
+  6 A$led_blink$61                                                 00000C GR
+  6 A$led_blink$63                                                 00000E GR
+  6 A$led_blink$64                                                 000012 GR
+  6 A$led_blink$65                                                 000013 GR
+  6 A$led_blink$67                                                 000015 GR
+  6 A$led_blink$68                                                 000018 GR
+  6 A$led_blink$70                                                 00001A GR
+  6 A$led_blink$71                                                 00001D GR
+  6 A$led_blink$72                                                 000020 GR
+  6 A$led_blink$73                                                 000021 GR
+  7 A$led_blink$77                                                 000000 GR
+  5 A$led_blink$84                                                 000004 GR
+  A A$led_blink$99                                                 000000 GR
+  A C$led_blink.c$10$1_0$3                                      =  000008 GR
+  A C$led_blink.c$12$2_0$4                                      =  000008 GR
+  A C$led_blink.c$13$2_0$4                                      =  000010 GR
+  A C$led_blink.c$14$2_0$4                                      =  000013 GR
+  A C$led_blink.c$15$2_0$4                                      =  000019 GR
+  A C$led_blink.c$19$1_0$3                                      =  00001E GR
+  A C$led_blink.c$2$0_0$3                                       =  000000 GR
+  A C$led_blink.c$20$1_0$7                                      =  00001F GR
+  A C$led_blink.c$23$2_0$7                                      =  00001F GR
+  A C$led_blink.c$28$2_0$7                                      =  000033 GR
+  A C$led_blink.c$9$1_0$3                                       =  000000 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8)  Page 2
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  A G$delay$0$0                                                 =  00001F GR
+  A G$main$0$0                                                  =  000000 GR
+  A XG$delay$0$0                                                =  000033 GR
+  A XG$main$0$0                                                 =  00001E GR
+    ___sdcc_external_startup                                       ****** GX
+  5 __interrupt_vect                                               000000 R
+  6 __sdcc_init_data                                               000009 R
+  5 __sdcc_program_startup                                         000004 R
+  3 __start__stack                                                 000000 R
+  A _delay                                                         00001F GR
+  A _main                                                          000000 GR
+    l_DATA                                                         ****** GX
+    l_INITIALIZER                                                  ****** GX
+    s_DATA                                                         ****** GX
+    s_GSINIT                                                       ****** GX
+    s_INITIALIZED                                                  ****** GX
+    s_INITIALIZER                                                  ****** GX
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8)  Page 3
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size      0   flags    0
+   1 DATA                                       size      0   flags    0
+   2 INITIALIZED                                size      0   flags    0
+   3 SSEG                                       size      1   flags    0
+   4 DABS                                       size      0   flags    8
+   5 HOME                                       size      7   flags    0
+   6 GSINIT                                     size     23   flags    0
+   7 GSFINAL                                    size      3   flags    0
+   8 CONST                                      size      0   flags    0
+   9 INITIALIZER                                size      0   flags    0
+   A CODE                                       size     34   flags    0
+   B CABS                                       size      0   flags    8
+
