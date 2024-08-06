@@ -1,0 +1,2 @@
+step1 --------> sdasstm8 -o out.rel asm.asm
+step2 --------> sdldstm8 -f out.lk

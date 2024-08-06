@@ -1,0 +1,38 @@
+	ldw x ,#0x7ff
+8080: :AE07FF
+
+	ldw sp,x
+8083: :94
+
+test_fun1: 
+	break
+8084: :8B
+
+	 call test_fun2
+8085: :CD808A
+
+	break
+8088: :8B
+
+	ret
+8089: :81
+
+test_fun2:
+	break
+808A: :8B
+
+	call test_fun3
+808B: :CD8090
+
+	break
+808E: :8B
+
+ 	ret
+808F: :81
+
+test_fun3:
+   	 break
+8090: :8B
+
+	ret
+8091: :81

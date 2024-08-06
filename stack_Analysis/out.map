@@ -1,0 +1,65 @@
+ASxxxx Linker V03.00/V05.40 + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           minimal_blink
+     00000000  l_HOME                          
+     00000000  l__CODE                         
+     00000000  s_SSEG                          
+     00000000  s__CODE                         
+     00000001  l_SSEG                          
+     00000021  l_CODE                          
+     00000060  l_INTR                          
+     00008000  s_INTR                          
+     00008080  s_CODE                          
+     00008080  s_HOME                          
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000000    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+INTR                                00008000    00000060 =          96. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                00008080    00000021 =          33. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008080  _main                              minimal_blink
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 5.
+
+Files Linked                              [ module(s) ]
+
+out.rel                                   [ minimal_blink ]
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 6.
+
+User Base Address Definitions
+
+HOME = 0x8080
+DATA = 0x0001
+INTR = 0x8000
+
+
