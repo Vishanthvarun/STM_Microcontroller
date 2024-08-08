@@ -1,0 +1,13 @@
+-muwx
+-i out.ihx
+-y
+-b HOME = 0x8080
+-b DATA = 0x0001
+-b INTR = 0x8000
+-k /usr/local/bin/../share/sdcc/lib/stm8
+-k /usr/local/share/sdcc/lib/stm8
+-l stm8
+-l stm8
+out.rel
+
+-e
