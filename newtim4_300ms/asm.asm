@@ -119,7 +119,6 @@ blink_loop:
     bset PE_ODR,#5      ;Turn on LED(set pin 5 of port B)
     call tim4_delay	;call delay function
     bres PE_ODR,#5	;Turn off led
-    ;break
     call tim4_delay     ;call delay
     jra blink_loop	;Infinite loop
 
@@ -130,9 +129,7 @@ tim4_delay:
     clr TIM4_SR		;TIM4_SR flag cleared
     mov TIM4_PSCR,#0x04  ;prescaler value
     mov TIM4_ARR,#125    ;arr value
-    break
     bset TIM4_EGR,#0    ;set UG bit 1(re-initialized counter and clearprescaler)
-    break
     bset TIM4_CR1,#0	;counter enabled
 
 waitfor_flag:
