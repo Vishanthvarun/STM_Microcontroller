@@ -1,0 +1,15 @@
+M:uart
+F:G$main$0_0$0({2}DF,SI:S),C,0,0,0,0,0
+F:G$clock_config$0_0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:G$uart2_config$0_0$0({2}DF,SV:S),Z,0,0,0,0,0
+F:G$uart2_tx$0_0$0({2}DF,SV:S),Z,0,0,0,0,0
+S:Luart.uart2_tx$a$1_0$0({1}SC:U),R,0,0,[yl]
+T:Fuart$rcc[({0}S:S$ICKR$0_0$0({1}SC:U),Z,0,0)({1}S:S$ECKR$0_0$0({1}SC:U),Z,0,0)({2}S:S$rsd0$0_0$0({1}SC:U),Z,0,0)({3}S:S$CMSR$0_0$0({1}SC:U),Z,0,0)({4}S:S$SWR$0_0$0({1}SC:U),Z,0,0)({5}S:S$SWCR$0_0$0({1}SC:U),Z,0,0)({6}S:S$CKDIVR$0_0$0({1}SC:U),Z,0,0)({7}S:S$PCKENR1$0_0$0({1}SC:U),Z,0,0)({8}S:S$CSSR$0_0$0({1}SC:U),Z,0,0)({9}S:S$CCOR$0_0$0({1}SC:U),Z,0,0)({10}S:S$PCKENR2$0_0$0({1}SC:U),Z,0,0)({11}S:S$rsd1$0_0$0({1}SC:U),Z,0,0)({12}S:S$HSITRIMR$0_0$0({1}SC:U),Z,0,0)({13}S:S$SWIMCCR$0_0$0({1}SC:U),Z,0,0)]
+T:Fuart$uart[({0}S:S$SR$0_0$0({1}SC:U),Z,0,0)({1}S:S$DR$0_0$0({1}SC:U),Z,0,0)({2}S:S$BRR1$0_0$0({1}SC:U),Z,0,0)({3}S:S$BRR2$0_0$0({1}SC:U),Z,0,0)({4}S:S$CR1$0_0$0({1}SC:U),Z,0,0)({5}S:S$CR2$0_0$0({1}SC:U),Z,0,0)({6}S:S$CR3$0_0$0({1}SC:U),Z,0,0)({7}S:S$CR4$0_0$0({1}SC:U),Z,0,0)({8}S:S$CR5$0_0$0({1}SC:U),Z,0,0)({9}S:S$CR6$0_0$0({1}SC:U),Z,0,0)({10}S:S$GTR$0_0$0({1}SC:U),Z,0,0)({11}S:S$PSCR$0_0$0({1}SC:U),Z,0,0)]
+T:Fuart$port[({0}S:S$ODR$0_0$0({1}SC:U),Z,0,0)({1}S:S$IDR$0_0$0({1}SC:U),Z,0,0)({2}S:S$DDR$0_0$0({1}SC:U),Z,0,0)({3}S:S$CR1$0_0$0({1}SC:U),Z,0,0)({4}S:S$CR2$0_0$0({1}SC:U),Z,0,0)]
+S:G$CLK$0_0$0({2}DG,STrcc:S),E,0,0
+S:G$PD$0_0$0({2}DG,STport:S),E,0,0
+S:G$UT2$0_0$0({2}DG,STuart:S),E,0,0
+S:G$uart2_rx$0_0$0({2}DF,SC:U),C,0,0
+S:G$delay$0_0$0({2}DF,SV:S),C,0,0
+S:G$main$0_0$0({2}DF,SI:S),C,0,0
